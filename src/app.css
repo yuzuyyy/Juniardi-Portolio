@@ -63,22 +63,16 @@
     @apply text-[16px] leading-[24px] tracking-[-0.04em] font-semibold;
   }
 
-  /* ======= Universal Section Padding ======= */
-  .section-padding {
-    @apply pt-[120px] pb-[24px] max-lg:pt-[80px] max-lg:pb-[24px] max-md:pt-[64px] max-md:pb-[24px];
-  }
 
-  .hero-section-padding {
-    @apply pt-[120px] pb-[24px]  max-md:pt-[80px];
-  }
+  
+
+ 
 
   /* ======= Layout Helpers ======= */
-  .padding-y {
-    @apply py-[64px] max-lg:py-[32px] max-md:py-[16px];
-  }
 
-  .padding-x {
-    @apply px-[64px] max-lg:px-[32px] max-md:px-[16px];
+
+  .section-padding {
+    @apply pt-[64px] px-[64px] max-lg:px-[32px] max-md:px-[16px];
   }
 
   .section-container {

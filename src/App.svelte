@@ -1,7 +1,7 @@
 <script> 
 
 </script>
-<div class="padding-x bg-primary">
+<div class="section-padding bg-primary">
 <h1 class="heading-2">
   Hello world!
 </h1>
