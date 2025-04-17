@@ -75,6 +75,10 @@
     @apply pt-[64px] px-[64px] max-lg:px-[32px] max-md:px-[16px];
   }
 
+  .padding-x {
+    @apply px-[64px] max-lg:px-[32px] max-md:px-[16px];
+  }
+
   .section-container {
     @apply mx-auto max-w-[1200px];
   }
