@@ -13,7 +13,7 @@
     </div>
 
     <!-- about me start -->
-    <div class="grid grid-cols-2 max-lg:grid-cols-1 gap-[24px]">
+    <div class="grid grid-cols-2 max-md:grid-cols-1 gap-[24px]">
       <div class="flex flex-col lg:min-h-[280px] h-fit pt-[16px] gap-[10px]">
         <p class="body-1 text-white/80 md:max-lg:max-w-[480px]">
           Design, for me, goes beyond solving problems. It's about improving
@@ -24,13 +24,16 @@
 
         <p class="heading-5 text-white">Signature</p>
       </div>
-      <!-- 
-            <div class="flex flex-col lg:items-end pl-[80px] max-lg:p-0 gap-[24px] lg:text-end">
-                <h2 class="heading-3 text-white capitalize">My <span class="text-primary">services</span></h2>
-                {#each services as service } 
-                <ListItem text={service}/>
-                {/each}
-            </div> -->
+      <div
+      class="flex py-[16px] px-[16px] flex-col items-start justify-center  gap-[12px] bg-white/10 rounded-xl"
+    >
+      <h2 class="heading-3 text-white capitalize">
+        My <span class="text-primary">services</span>
+      </h2>
+      {#each services as service}
+        <ListItem text={service} />
+      {/each}
+    </div>
 
       <div
         class="flex py-[16px] px-[16px] flex-col items-start justify-center  gap-[12px] bg-white/10 rounded-xl"

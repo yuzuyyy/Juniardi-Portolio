@@ -28,7 +28,7 @@
         class="flex items-center justify-between w-full -mt-[50px] max-lg:-mt-[60px] max-md:-mt-[20px] max-md:flex-col max-md:items-center"
       >
         <div
-          class="flex flex-col gap-[32px] self-end max-w-[240px] max-lg:w-[220px] max-lg:gap-[16px] max-md:hidden lg:pb-[24px]"
+          class="flex flex-col gap-[32px] self-end max-w-[240px] max-lg:w-[220px] max-lg:gap-[16px] max-md:hidden md:pb-[24px]"
         >
           <h4 class="heading-4">
             Hello! I'm Andrea Cruz, a creative product designer based in London.
