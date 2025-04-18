@@ -21,15 +21,15 @@ import {ListItem, Number} from "./";
 
                 <p class="heading-5 text-white">Signature</p>
             </div>
-
+<!-- 
             <div class="flex flex-col lg:items-end pl-[80px] max-lg:p-0 gap-[24px] lg:text-end">
                 <h2 class="heading-3 text-white capitalize">My <span class="text-primary">services</span></h2>
                 {#each services as service } 
                 <ListItem text={service}/>
                 {/each}
-            </div>
+            </div> -->
 
-            <div class="flex flex-col items-start max-lg:p-0 gap-[24px]">
+            <div class="flex flex-col items-start p-8 max-lg:p-0 gap-[12px] bg-white/30 rounded-[40px]">
                 <h2 class="heading-3 text-white capitalize">Tools and <span class="text-primary">expertise</span></h2>
                 {#each tools as tool } 
                 <ListItem {...tool}/>
