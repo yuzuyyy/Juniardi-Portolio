@@ -32,9 +32,12 @@
           <h4 class="heading-4 ">
             Hello! I'm Hendra Juniardi, a creative product designer based in Indonesia.
           </h4>
-          <MainButton className="rounded-full max-lg:text-[16px] py-[10px] px-[24px] button-text w-fit"
-            >See my projects</MainButton
-          >
+
+          <a href="#project">
+            <MainButton className="rounded-full max-lg:text-[16px] py-[10px] px-[24px] button-text w-fit"
+              >See my projects</MainButton
+            >
+          </a>
         </div>
 
         <div class="p-[10px] bg-primary flex rounded-[48px] overflow-hidden">
@@ -58,9 +61,11 @@
           <h2 class="heading-4 text-center max-w-[300px]">
             Hello! I'm Hendra Juniardi, a creative product designer based in Indonesia.
           </h2>
-          <MainButton className="rounded-full py-[10px] px-[24px] button-text w-fit"
-            >See my projects</MainButton
-          >
+          <a href="#project">
+            <MainButton className="rounded-full py-[10px] px-[24px] button-text w-fit"
+              >See my projects</MainButton
+            >
+          </a>
         </div>
         <div class="flex gap-[10px]">
           {#each socmeds as socmed (socmed)}
