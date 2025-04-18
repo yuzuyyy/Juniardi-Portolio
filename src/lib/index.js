@@ -12,6 +12,7 @@ import Project from './Project.svelte'
 import Nav from './Nav.svelte'
 import NavItem from './NavItem.svelte'
 import ToggleMenu from './ToggleMenu.svelte'
+import Footer from './Footer.svelte'
 export {
     Counter,
     Hero,
@@ -26,5 +27,6 @@ export {
     Project,
     Nav,
     NavItem,
-    ToggleMenu
+    ToggleMenu,
+    Footer
 }

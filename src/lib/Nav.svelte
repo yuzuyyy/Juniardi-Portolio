@@ -16,7 +16,7 @@
         <!-- Desktop Nav -->
         <div class="flex items-center gap-[24px] max-md:hidden">
             {#each navItems as item}
-                <NavItem {item} />
+                <NavItem {...item} />
             {/each}
         </div>
 
@@ -35,10 +35,10 @@
             <div
                 in:slide
                 out:fade
-                class="absolute rounded-3xl bg-black text-white top-[40px] left-0 w-full z-50  flex flex-col items-start gap-4 p-6 shadow-md md:hidden cursor-pointer"
+                class="absolute rounded-3xl bg-black text-white top-[40px] left-0 w-full z-50 flex flex-col items-start gap-4 p-6 shadow-md md:hidden"
             >
                 {#each navItems as item}
-                    <NavItem {item} />
+                    <NavItem {...item} />
                 {/each}
             </div>
         {/if}

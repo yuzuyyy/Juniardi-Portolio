@@ -1,18 +1,17 @@
 <script>
-    export let item = "text"
-    export let link = ""
+    export let text = "Link";
+    export let link = "#";
     import { isOpen } from "../stores/isOpen";
 
     function closeMenu() {
         isOpen.set(false);
     }
-
-    $: $isOpen;
-
 </script>
 
-<button on:click={closeMenu}>
-    <a class="body-1 capitalize hover:text-black/50 transition-all ease-in-out duration-700" href={link}>
-        {item}
-    </a>
-</button>
+<a
+    href={link}
+    on:click={closeMenu}
+    class="body-1 capitalize hover:text-white/50 transition-all duration-300"
+>
+    {text}
+</a>

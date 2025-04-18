@@ -80,4 +80,10 @@ export const projects = [
     },
 ]
 
-export  const navItems = ["home", "about", "project", "footer"];
+export const navItems = [
+    { text: "Home", link: "#home" },
+    { text: "About", link: "#about" },
+    { text: "Projects", link: "#projects" },
+    { text: "Contact", link: "#contact" },
+    { text: "Footer", link: "#footer" },
+];

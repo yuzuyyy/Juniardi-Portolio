@@ -3,7 +3,7 @@
   import { ListItem, Number } from "./";
 </script>
 
-<section class="bg-bgDark section-padding">
+<section id="about" class="bg-bgDark section-padding">
   <!-- container start -->
   <div class="section-container flex flex-col lg:gap-[64px] gap-[24px] w-full">
     <div class="flex items-center justify-between w-full">

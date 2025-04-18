@@ -4,7 +4,7 @@
   import { socmeds } from "../constants";
 </script>
 
-<section
+<section id="home"
   class="relative lg:min-h-screen bg-primary section-padding flex flex-col items-center gap-[10px]"
 >
   <div class="section-container w-full">
