@@ -10,6 +10,7 @@ import tool1 from './tool1.png'
 import tool2 from './tool2.png'
 import tool3 from './tool3.png'
 import tool4 from './tool4.png'
+import arrow from './arrow.svg'
 export {
     svelte,
     hero,
@@ -22,5 +23,6 @@ export {
     tool1,
     tool2,
     tool3,
-    tool4
+    tool4,
+    arrow
 }

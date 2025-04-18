@@ -1,6 +1,6 @@
 <script>
-  import { shuriken } from "../assets";
-    export let image = shuriken
+  import { arrow, shuriken } from "../assets";
+    export let image = arrow
     export let text = "text"
 </script>
 
