@@ -30,7 +30,7 @@
           class="flex flex-col gap-[32px] self-end max-w-[240px] max-lg:w-[220px] max-lg:gap-[16px] max-md:hidden md:pb-[24px]"
         >
           <h4 class="heading-4 ">
-            Hello! I'm Andrea Cruz, a creative product designer based in London.
+            Hello! I'm Hendra Juniardi, a creative product designer based in Indonesia.
           </h4>
           <MainButton className="rounded-full max-lg:text-[16px] py-[10px] px-[24px] button-text w-fit"
             >See my projects</MainButton
@@ -56,7 +56,7 @@
       <div class="flex flex-col items-center gap-[24px] w-full md:hidden">
         <div class="flex flex-col items-center gap-[10px] w-full">
           <h2 class="heading-4 text-center max-w-[300px]">
-            Hello! I'm Andrea Cruz, a creative product designer based in London.
+            Hello! I'm Hendra Juniardi, a creative product designer based in Indonesia.
           </h2>
           <MainButton className="rounded-full py-[10px] px-[24px] button-text w-fit"
             >See my projects</MainButton
