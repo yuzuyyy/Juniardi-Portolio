@@ -5,6 +5,7 @@ import IconBox from './IconBox.svelte'
 import About from './About.svelte'
 import Number from './Number.svelte'
 import ListItem from './ListItem.svelte'
+import Ticker from './Ticker.svelte'
 export {
     Counter,
     Hero,
@@ -12,5 +13,6 @@ export {
     IconBox,
     About,
     Number,
-    ListItem
+    ListItem,
+    Ticker
 }
