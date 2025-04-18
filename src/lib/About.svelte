@@ -27,7 +27,7 @@
       </div>
 
       <div
-        class="flex h-fit pt-[16px] px-[32px] pb-[32px] flex-col items-start justify-center gap-[16px] bg-white/10 rounded-[40px]"
+        class="flex h-fit pt-[16px] px-[32px] pb-[32px] flex-col items-start justify-center gap-[16px] bg-white/10 rounded-[40px] max-md:rounded-2xl"
       >
         <h2 class="heading-3 text-white capitalize">
           My <span class="text-primary">services</span>
@@ -40,7 +40,7 @@
       </div>
 
       <div
-        class="flex h-fit pt-[16px] px-[32px] pb-[32px] flex-col items-start justify-center gap-[16px] bg-white/10 rounded-[40px]"
+        class="flex h-fit pt-[16px] px-[32px] pb-[32px] flex-col items-start justify-center gap-[16px] bg-white/10 rounded-[40px] max-md:rounded-2xl"
       >
         <h2 class="heading-3 text-white capitalize">
           My <span class="text-primary">services</span>

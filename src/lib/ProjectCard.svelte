@@ -7,7 +7,7 @@
 
 <a href="">
   <div
-    class="relative p-[24px] min-h-[340px] min-w-[280px] max-lg:w-full rounded-[40px] overflow-hidden group flex flex-col justify-between"
+    class="relative p-[24px] min-h-[340px] min-w-[280px] max-lg:w-full rounded-[40px] overflow-hidden group flex flex-col justify-between max-md:rounded-2xl"
   >
     <img
       class="absolute inset-0 w-full h-full bg-cover group-hover:scale-125 transition-all ease-in-out duration-700"
