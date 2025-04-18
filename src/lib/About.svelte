@@ -29,7 +29,7 @@ import {ListItem, Number} from "./";
                 {/each}
             </div> -->
 
-            <div class="flex flex-col items-start p-8 max-lg:p-0 gap-[12px] bg-white/30 rounded-[40px]">
+            <div class="flex flex-col items-start p-8 pl-10 max-lg:p-0 gap-[12px] bg-white/30 rounded-[40px]">
                 <h2 class="heading-3 text-white capitalize">Tools and <span class="text-primary">expertise</span></h2>
                 {#each tools as tool } 
                 <ListItem {...tool}/>
