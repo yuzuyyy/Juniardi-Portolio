@@ -28,7 +28,7 @@
           Hello! I'm Andrea Cruz, a creative product designer based in London.
         </h4>
         <Button className="rounded-full py-[10px] px-[24px] button-text w-fit"
-          >Contact me</Button
+          >See my projects</Button
         >
       </div>
 
