@@ -8,12 +8,12 @@
   class="relative lg:min-h-screen bg-primary section-padding flex flex-col items-center gap-[10px]"
 >
   <Button
-    className="absolute max-md:hidden animate-bounce rounded-full left-[200px] top-[200px] bg-white text-black py-4 px-6 button-text"
+    className="absolute max-lg:hidden animate-bounce rounded-full left-[200px] top-[200px] bg-white text-black py-4 px-6 button-text"
     >Floatiing
   </Button>
   <div class="section-container w-full">
     <Button
-      className="absolute max-md:hidden animate-bounce rounded-full right-[400px] bottom-[300px] bg-white text-black py-4 px-6 button-text"
+      className="absolute max-lg:hidden animate-bounce rounded-full right-[400px] bottom-[300px] bg-white text-black py-4 px-6 button-text"
       >Floatiing
     </Button>
     <div class="section-container w-full">
@@ -30,10 +30,10 @@
         <div
           class="flex flex-col gap-[32px] self-end max-w-[240px] max-lg:w-[220px] max-lg:gap-[16px] max-md:hidden md:pb-[24px]"
         >
-          <h4 class="heading-4">
+          <h4 class="heading-4 ">
             Hello! I'm Andrea Cruz, a creative product designer based in London.
           </h4>
-          <Button className="rounded-full py-[10px] px-[24px] button-text w-fit"
+          <Button className="rounded-full max-lg:text-[16px] py-[10px] px-[24px] button-text w-fit"
             >See my projects</Button
           >
         </div>
@@ -56,7 +56,7 @@
 
       <div class="flex flex-col items-center gap-[24px] w-full md:hidden">
         <div class="flex flex-col items-center gap-[10px] w-full">
-          <h2 class="heading-4 text-center">
+          <h2 class="heading-4 text-center max-w-[300px]">
             Hello! I'm Andrea Cruz, a creative product designer based in London.
           </h2>
           <Button className="rounded-full py-[10px] px-[24px] button-text w-fit"
