@@ -21,9 +21,9 @@
           >
             <!-- Quadrupled content (4 identical components) -->
             {#each Array(4) as _}
-              <div class="flex items-center gap-4 mx-16">
+              <div class="flex items-center gap-4 mx-12">
                 <img src={arrow} alt="shuriken" class="w-10 h-10 max-md:w-6 max-md:h-6" />
-                <p class="text-[40px] max-md:text-[24px]  text-white">Featured work</p>
+                <p class="heading-1 max-md:text-[24px]  text-white">Featured work</p>
               </div>
             {/each}
           </Marquee>
