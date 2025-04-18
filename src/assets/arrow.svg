@@ -1,1 +1,13 @@
-<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 13V10H0L1.74846e-07 6L7 6L7 3L8 3L13 8L8 13H7Z" fill="#ffe613"></path> <path d="M14 14V2L16 2V14H14Z" fill="#ffe613"></path> </g></svg>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 16 16"
+    width="16" 
+    height="16"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <path 
+      d="M8.571 0L7.429 0L7.429 6.62L2.747 1.939L1.939 2.747L6.62 7.429L0 7.429L0 8.571L6.62 8.571L1.939 13.253L2.747 14.061L7.429 9.38L7.429 16L8.571 16L8.571 9.38L13.253 14.061L14.061 13.253L9.38 8.571L16 8.571L16 7.429L9.38 7.429L14.061 2.747L13.253 1.939L8.571 6.62Z" 
+      fill="#ffe613"
+    />
+  </svg>
