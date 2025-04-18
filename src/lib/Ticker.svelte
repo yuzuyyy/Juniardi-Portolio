@@ -8,7 +8,7 @@
 <div>
 
     <section class="bg-bgDark">
-        <div class="w-full bg-bgDark py-2 lg:py-8 relative overflow-hidden section-container">
+        <div class="w-full  py-2 lg:py-8 relative overflow-hidden section-container">
           <!-- Left fade -->
           <div class="absolute left-0 top-0 h-full w-[200px] z-10 bg-gradient-to-r from-black to-transparent"></div>
           
