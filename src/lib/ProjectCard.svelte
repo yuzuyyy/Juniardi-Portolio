@@ -17,10 +17,10 @@
 
     <div></div>
     <div
-      class="z-10 bg-white w-full rounded-full flex flex-col gap-2 py-[8px] px-[24px] group-hover:bg-primary transition-all ease-in-out duration-700"
+      class="z-10 bg-white w-full rounded-3xl flex flex-col  py-[8px] px-[24px] group-hover:bg-black transition-all ease-in-out duration-700"
     >
-      <h6 class="heading-6">{title}</h6>
-      <p class="body-1 text-black/50">{description}</p>
+      <h6 class="heading-6 group-hover:text-white">{title}</h6>
+      <p class="text-[14px] font-medium text-black/80 group-hover:text-white/80">{description}</p>
     </div>
   </div>
 </a>
