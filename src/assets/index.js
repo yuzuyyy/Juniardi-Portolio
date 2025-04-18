@@ -5,6 +5,10 @@ import socmed2 from './socmed2.svg'
 import socmed3 from './socmed3.svg'
 import socmed4 from './socmed4.svg'
 import shuriken from './shuriken.png'
+import tool1 from './tool1.png'
+import tool2 from './tool2.png'
+import tool3 from './tool3.png'
+import tool4 from './tool4.png'
 export {
     svelte,
     hero,
@@ -12,5 +16,9 @@ export {
     socmed2,
     socmed3,
     socmed4,
-    shuriken
+    shuriken,
+    tool1,
+    tool2,
+    tool3,
+    tool4
 }

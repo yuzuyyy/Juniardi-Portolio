@@ -1,4 +1,4 @@
-import { socmed1, socmed2, socmed3, socmed4 } from "../assets";
+import { socmed1, socmed2, socmed3, socmed4, tool1, tool2, tool3, tool4 } from "../assets";
 
 export const socmeds = [
     {
@@ -43,4 +43,23 @@ export const services = [
     "User Research",
     "Concept Development",
     "User Experience Design"
+]
+
+export const tools = [
+    {
+       image: tool1,
+       text: "Photoshop" 
+    },
+    {
+        image: tool2,
+        text: "Adobe" 
+     },
+     {
+        image: tool3,
+        text: "Figma" 
+     },
+     {
+        image: tool4,
+        text: "Notion" 
+     },
 ]
