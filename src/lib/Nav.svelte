@@ -11,7 +11,9 @@
 
 <nav class="fixed   z-50 bg-primary w-full top-0 padding-x py-[10px]">
     <div class="relative section-container flex items-center justify-between">
-        <p class="font-alfa text-3xl uppercase">hw</p>
+        <div>
+            <a href="/" class="font-alfa text-3xl uppercase">hw</a>
+        </div>
 
         <!-- Desktop Nav -->
         <div class="flex items-center gap-[24px] max-md:hidden">
@@ -31,18 +33,20 @@
         </div>
 
         <!-- Mobile Menu -->
-        {#if $isOpen}
-            <div
-                in:slide
-                out:fade
-                class="absolute rounded-3xl  bg-black text-white top-[60px] left-0 w-full z-50 flex flex-col items-center gap-6 p-6 shadow-md md:hidden"
-            >
-                {#each navItems as item}
-                    <NavItem {...item} />
-                {/each}
-                <MainButton className="bg-primary font-bold text-black body-1 w-full py-4">Contact me</MainButton>
-            </div>
-        {/if}
+        
+            {#if $isOpen}
+                <div
+                    in:slide
+                    out:fade
+                    class="absolute rounded-3xl  bg-black text-white top-[60px] left-0 w-full z-50 flex flex-col items-center gap-6 p-6 shadow-md md:hidden"
+                >
+                    {#each navItems as item}
+                        <NavItem {...item} />
+                    {/each}
+                    <MainButton className="bg-primary font-bold text-black body-1 w-full py-4">Contact me</MainButton>
+                </div>
+            {/if}
+        
 
 
     </div>
