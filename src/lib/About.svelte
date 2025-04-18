@@ -26,7 +26,7 @@
         <p class="heading-5 text-white">Signature</p>
       </div>
       <div
-      class="flex py-[16px] px-[16px] flex-col items-start justify-center  gap-[12px] bg-white/10 rounded-xl"
+      class="flex h-fit py-[16px] px-[16px] flex-col items-start justify-center  gap-[12px] bg-white/10 rounded-xl"
     >
       <h2 class="heading-3 text-white capitalize">
         My <span class="text-primary">services</span>
