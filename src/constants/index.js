@@ -79,3 +79,5 @@ export const projects = [
         image: project3
     },
 ]
+
+export  const navItems = ["home", "about", "project", "footer"];

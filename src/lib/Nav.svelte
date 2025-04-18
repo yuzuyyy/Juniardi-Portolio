@@ -1,0 +1,46 @@
+<script>
+    import { NavItem } from ".";
+    import { navItems } from "../constants";
+    import MainButton from "./MainButton.svelte";
+    import ToggleMenu from "./ToggleMenu.svelte";
+    import { isOpen } from "../stores/isOpen";
+    import { slide, fade } from 'svelte/transition';
+
+    $: $isOpen;
+</script>
+
+<nav class="fixed z-50 bg-primary w-full top-0 padding-x py-[10px]">
+    <div class="relative section-container flex items-center justify-between">
+        <p class="font-alfa text-3xl uppercase">hw</p>
+
+        <!-- Desktop Nav -->
+        <div class="flex items-center gap-[24px] max-md:hidden">
+            {#each navItems as item}
+                <NavItem {item} />
+            {/each}
+        </div>
+
+        <!-- Right buttons -->
+        <div class="flex items-center gap-4">
+            <MainButton
+                className="rounded-full py-[5px] px-[16px] body-2 w-fit max-md:hidden"
+            >
+                Contact me
+            </MainButton>
+            <ToggleMenu />
+        </div>
+
+        <!-- Mobile Menu -->
+        {#if $isOpen}
+            <div
+                in:slide
+                out:fade
+                class="absolute rounded-3xl bg-black text-white top-[40px] left-0 w-full z-50  flex flex-col items-start gap-4 p-6 shadow-md md:hidden cursor-pointer"
+            >
+                {#each navItems as item}
+                    <NavItem {item} />
+                {/each}
+            </div>
+        {/if}
+    </div>
+</nav>

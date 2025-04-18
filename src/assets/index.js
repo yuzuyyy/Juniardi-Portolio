@@ -15,6 +15,8 @@ import project1 from './project1.jpeg'
 import project2 from './project2.jpeg'
 import project3 from './project3.jpeg'
 import project4 from './project4.jpeg'
+import menu from './menu.svg'
+import close from './close.svg'
 export {
     svelte,
     hero,
@@ -32,5 +34,7 @@ export {
     project1,
     project2,
     project3,
-    project4
+    project4,
+    menu,
+    close
 }

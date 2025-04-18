@@ -9,6 +9,9 @@ import Ticker from './Ticker.svelte'
 import MainButton from './MainButton.svelte'
 import ProjectCard from './ProjectCard.svelte'
 import Project from './Project.svelte'
+import Nav from './Nav.svelte'
+import NavItem from './NavItem.svelte'
+import ToggleMenu from './ToggleMenu.svelte'
 export {
     Counter,
     Hero,
@@ -20,5 +23,8 @@ export {
     Ticker,
     MainButton,
     ProjectCard,
-    Project
+    Project,
+    Nav,
+    NavItem,
+    ToggleMenu
 }
