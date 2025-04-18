@@ -8,6 +8,6 @@
     <p class="text-[80px] max-lg:text-[64px] max-md:text-[40px] text-textMid font-bold">
       {number}<span class="text-primary">{simbol}</span>
     </p>
-    <p class="text-textMid body-1">{text}</p>
+    <p class="text-textMid body-1 capitalize">{text}</p>
   </div>
   

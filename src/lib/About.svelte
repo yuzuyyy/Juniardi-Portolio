@@ -5,7 +5,7 @@
 
 <section class="bg-bgDark section-padding">
   <!-- container start -->
-  <div class="section-container flex flex-col gap-[80px] w-full">
+  <div class="section-container flex flex-col lg:gap-[64px] gap-[24px] w-full">
     <div class="flex items-center justify-between w-full">
       {#each stats as stat}
         <Number {...stat} />
@@ -15,6 +15,7 @@
     <!-- about me start -->
     <div class="grid grid-cols-2 max-md:grid-cols-1 gap-[24px]">
       <div class="flex flex-col lg:min-h-[280px] h-fit pt-[16px] gap-[10px]">
+        <h2 class="heading-2 text-white">[About me]</h2>
         <p class="body-1 text-white/80 md:max-lg:max-w-[480px]">
           Design, for me, goes beyond solving problems. It's about improving
           user experiences, striking the perfect balance between aesthetics and
