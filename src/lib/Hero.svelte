@@ -5,18 +5,21 @@
 </script>
 
 <section
-  class="lg:min-h-screen bg-primary section-padding flex flex-col items-center gap-[10px]"
+  class="relative lg:min-h-screen bg-primary section-padding flex flex-col items-center gap-[10px]"
 >
+  <Button className="absolute max-md:hidden animate-bounce rounded-full left-[200px] top-[200px] bg-white text-black py-4 px-6 button-text">Floatiing </Button>
   <div class="section-container w-full">
+    <Button className="absolute max-md:hidden animate-bounce rounded-full right-[400px] bottom-[300px] bg-white text-black py-4 px-6 button-text">Floatiing </Button>
+    <div class="section-container w-full">
     <h1
-      class="font-alfa text-center text-[150px] max-lg:text-[140px] max-md:text-[80px] uppercase leading-[1em]"
+      class="text-center text-[275px] max-lg:text-[140px] max-md:text-[80px] font-semibold leading-[1em]"
     >
       Hendra.work
     </h1>
 
     <!-- bottom start -->
     <div
-      class="flex items-center justify-between w-full -mt-[80px] max-lg:-mt-[60px] max-md:-mt-[20px] max-md:flex-col max-md:items-center"
+      class="flex items-center justify-between w-full -mt-[50px] max-lg:-mt-[60px] max-md:-mt-[20px] max-md:flex-col max-md:items-center"
     >
       <div
         class="flex flex-col gap-[32px] self-end max-w-[240px] max-lg:w-[220px] max-lg:gap-[16px] max-md:hidden lg:pb-[24px]"
@@ -29,9 +32,9 @@
         >
       </div>
 
-      <div class="p-[10px] bg-primary flex rounded-3xl overflow-hidden">
+      <div class="p-[10px] bg-primary flex rounded-[48px] overflow-hidden">
         <img
-          class="min-h-[440px] max-md:h-[360px] w-[400px] max-md:w-full rounded-3xl"
+          class="min-h-[440px] max-md:h-[360px] w-[400px] max-md:w-full rounded-[40px]"
           src={hero}
           alt="hero"
         />
