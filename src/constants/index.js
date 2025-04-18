@@ -81,9 +81,8 @@ export const projects = [
 ]
 
 export const navItems = [
-    { text: "Home", link: "#home" },
-    { text: "About", link: "#about" },
-    { text: "Projects", link: "#projects" },
-    { text: "Contact", link: "#contact" },
-    { text: "Footer", link: "#footer" },
+    { text: "home", link: "#home" },
+    { text: "about", link: "#about" },
+    { text: "project", link: "#project" },
+    { text: "footer", link: "#footer" },
 ];
