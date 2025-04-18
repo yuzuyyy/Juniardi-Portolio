@@ -40,11 +40,11 @@
 
   /* ======= Body & Text Styles ======= */
   .body-1 {
-    @apply text-[18px] max-lg:text-[16px] max-md:text-[14px] leading-[1.5em] tracking-[-0.02em] font-normal;
+    @apply text-[32px] max-lg:text-[24px] max-md:text-[20px] leading-[1.5em] tracking-[-0.02em] font-normal;
   }
 
   .body-2 {
-    @apply text-[14px] leading-[1.5em] tracking-[-0.01em] font-normal text-gray-800;
+    @apply text-[20px] leading-[1.5em] tracking-[-0.01em] font-normal text-gray-800;
   }
 
   .label {
@@ -64,7 +64,7 @@
   }
 
   .button-text {
-    @apply text-[16px] leading-[24px] tracking-[-0.04em] font-semibold;
+    @apply text-[24px] leading-[24px] tracking-[-0.04em] font-semibold;
   }
 
   /* ======= Layout Helpers ======= */
