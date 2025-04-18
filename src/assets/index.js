@@ -4,11 +4,13 @@ import socmed1 from './socmed1.svg'
 import socmed2 from './socmed2.svg'
 import socmed3 from './socmed3.svg'
 import socmed4 from './socmed4.svg'
+import shuriken from './shuriken.png'
 export {
     svelte,
     hero,
     socmed1,
     socmed2,
     socmed3,
-    socmed4
+    socmed4,
+    shuriken
 }
