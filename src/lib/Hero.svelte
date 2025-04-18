@@ -9,9 +9,9 @@
 >
   <div class="section-container w-full">
     <h1
-      class="font-alfa text-center text-[240px] max-lg:text-[140px] max-md:text-[80px] uppercase leading-[1em]"
+      class="font-alfa text-center text-[150px] max-lg:text-[140px] max-md:text-[80px] uppercase leading-[1em]"
     >
-      Hendra
+      Hendra.work
     </h1>
 
     <!-- bottom start -->

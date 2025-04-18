@@ -77,6 +77,6 @@
   }
 
   .section-container {
-    @apply mx-auto max-w-[1200px];
+    @apply mx-auto max-w-[1320px];
   }
 }
