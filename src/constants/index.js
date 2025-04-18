@@ -25,19 +25,19 @@ export const socmeds = [
 
 export const stats = [
     {
-        number: "100",
+        number: "20",
         simbol: "+",
         text: "clients"
     },
     {
-        number: "100",
+        number: "45",
         simbol: "+",
-        text: "clients"
+        text: "projects"
     },
     {
         number: "100",
-        simbol: "+",
-        text: "clients"
+        simbol: "%",
+        text: "clients satisfaction"
     },
     
 ]
@@ -70,15 +70,22 @@ export const tools = [
 
 export const projects = [
     {
-        image: project1
+        image: project1,
+        title: "Z-Watch",
+        description: "Product design"
     },
     {
-        image: project2
+        image: project2,
+        title: "Bloom Parfume",
+        description: "Product design"
     },
     {
-        image: project3
-    },
-]
+        image: project3,
+        title: "Bottl ecraft",
+        description: "product design"
+    }
+];
+
 
 export const navItems = [
     { text: "home", link: "#home" },

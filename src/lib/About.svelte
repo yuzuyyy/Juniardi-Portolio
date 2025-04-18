@@ -25,27 +25,34 @@
 
         <p class="heading-5 text-white">Signature</p>
       </div>
-      <div
-      class="flex h-fit py-[16px] px-[16px] flex-col items-start justify-center  gap-[12px] bg-white/10 rounded-xl"
-    >
-      <h2 class="heading-3 text-white capitalize">
-        My <span class="text-primary">services</span>
-      </h2>
-      {#each services as service}
-        <ListItem text={service} />
-      {/each}
-    </div>
 
       <div
-        class="flex py-[16px] px-[16px] flex-col items-start justify-center  gap-[12px] bg-white/10 rounded-xl"
+        class="flex h-fit pt-[16px] px-[32px] pb-[32px] flex-col items-start justify-center gap-[16px] bg-white/10 rounded-[40px]"
       >
         <h2 class="heading-3 text-white capitalize">
-          Tools and <span class="text-primary">expertise</span>
+          My <span class="text-primary">services</span>
         </h2>
-        {#each tools as tool}
-          <ListItem {...tool} />
-        {/each}
+        <div class="flex flex-col gap-2">
+          {#each services as service}
+            <ListItem text={service} />
+          {/each}
+        </div>
       </div>
+
+      <div
+        class="flex h-fit pt-[16px] px-[32px] pb-[32px] flex-col items-start justify-center gap-[16px] bg-white/10 rounded-[40px]"
+      >
+        <h2 class="heading-3 text-white capitalize">
+          My <span class="text-primary">services</span>
+        </h2>
+        <div class="flex flex-col gap-2">
+          {#each tools as tool}
+            <ListItem {...tool} />
+          {/each}
+        </div>
+      </div>
+
+     
     </div>
     <!-- about me end -->
   </div>
