@@ -1,4 +1,4 @@
-import { socmed1, socmed2, socmed3, socmed4, tool1, tool2, tool3, tool4 } from "../assets";
+import { socmed1, socmed2, socmed3, socmed4, socmed5, tool1, tool2, tool3, tool4 } from "../assets";
 
 export const socmeds = [
     {
@@ -15,6 +15,10 @@ export const socmeds = [
     },
     {
         icon: socmed4,
+        link: "https://twitter.com"
+    },
+    {
+        icon: socmed5,
         link: "https://twitter.com"
     },
 ]
