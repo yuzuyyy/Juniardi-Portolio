@@ -33,7 +33,7 @@
             </div> -->
 
       <div
-        class="flex flex-col items-start p-8 pl-10 max-lg:p-0 gap-[12px] bg-white/30 rounded-[40px]"
+        class="flex py-[16px] px-[16px] flex-col items-start justify-center  gap-[12px] bg-white/10 rounded-xl"
       >
         <h2 class="heading-3 text-white capitalize">
           Tools and <span class="text-primary">expertise</span>
