@@ -1,5 +1,5 @@
 <script>
-  import { stats } from "../constants";
+  import { services, stats } from "../constants";
 import {ListItem, Number} from "./";
 
 
@@ -24,10 +24,10 @@ import {ListItem, Number} from "./";
 
             <div class="flex flex-col items-start pl-[80px] max-lg:p-0 gap-[24px]">
                 <h2 class="heading-2 text-white">My services</h2>
-                <ListItem />
-                <ListItem />
-                <ListItem />
-                <ListItem />
+                {#each services as service } 
+                <ListItem text={service}/>
+                {/each}
+                
             </div>
         </div>
         <!-- about me end -->

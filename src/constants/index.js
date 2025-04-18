@@ -37,3 +37,10 @@ export const stats = [
     },
     
 ]
+
+export const services = [
+    "Product design",
+    "User Research",
+    "Concept Development",
+    "User Experience Design"
+]
