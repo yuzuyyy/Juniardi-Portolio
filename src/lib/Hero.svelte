@@ -1,5 +1,5 @@
 <script>
-  import { Button, IconBox } from ".";
+  import { Button, IconBox, MainButton } from ".";
   import { hero } from "../assets";
   import { socmeds } from "../constants";
 </script>
@@ -7,15 +7,8 @@
 <section
   class="relative lg:min-h-screen bg-primary section-padding flex flex-col items-center gap-[10px]"
 >
-  <Button
-    className="absolute max-lg:hidden animate-bounce rounded-full left-[200px] top-[200px] bg-white text-black py-4 px-6 button-text"
-    >Floatiing
-  </Button>
   <div class="section-container w-full">
-    <Button
-      className="absolute max-lg:hidden animate-bounce rounded-full right-[400px] bottom-[300px] bg-white text-black py-4 px-6 button-text"
-      >Floatiing
-    </Button>
+    
     <div class="section-container w-full">
       <h1
         class="text-center text-[275px] max-lg:text-[140px] max-md:text-[70px] font-semibold leading-[1em]"
@@ -25,7 +18,7 @@
 
       <!-- bottom start -->
       <div
-        class="flex items-center justify-between w-full -mt-[70px] max-lg:-mt-[24px] max-md:-mt-[6px] max-md:flex-col max-md:items-center"
+        class="flex items-center justify-between w-full -mt-[50px] max-lg:-mt-[24px] max-md:-mt-[6px] max-md:flex-col max-md:items-center"
       >
         <div
           class="flex flex-col gap-[32px] self-end max-w-[240px] max-lg:w-[220px] max-lg:gap-[16px] max-md:hidden md:pb-[24px]"
@@ -33,8 +26,8 @@
           <h4 class="heading-4 ">
             Hello! I'm Andrea Cruz, a creative product designer based in London.
           </h4>
-          <Button className="rounded-full max-lg:text-[16px] py-[10px] px-[24px] button-text w-fit"
-            >See my projects</Button
+          <MainButton className="rounded-full max-lg:text-[16px] py-[10px] px-[24px] button-text w-fit"
+            >See my projects</MainButton
           >
         </div>
 
@@ -59,8 +52,8 @@
           <h2 class="heading-4 text-center max-w-[300px]">
             Hello! I'm Andrea Cruz, a creative product designer based in London.
           </h2>
-          <Button className="rounded-full py-[10px] px-[24px] button-text w-fit"
-            >Contact me</Button
+          <MainButton className="rounded-full py-[10px] px-[24px] button-text w-fit"
+            >See my projects</MainButton
           >
         </div>
         <div class="flex gap-[10px]">
