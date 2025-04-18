@@ -18,3 +18,22 @@ export const socmeds = [
         link: "https://twitter.com"
     },
 ]
+
+export const stats = [
+    {
+        number: "100",
+        simbol: "+",
+        text: "clients"
+    },
+    {
+        number: "100",
+        simbol: "+",
+        text: "clients"
+    },
+    {
+        number: "100",
+        simbol: "+",
+        text: "clients"
+    },
+    
+]

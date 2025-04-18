@@ -1,7 +1,9 @@
 <script>
-  import Hero from "./lib/Hero.svelte";
+  import { About, Hero } from "./lib";
+
 
 
 </script>
 
 <Hero />
+<About />

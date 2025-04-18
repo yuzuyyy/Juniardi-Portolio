@@ -72,7 +72,7 @@
 
 
   .section-padding {
-    @apply pt-[64px] px-[64px] max-lg:px-[32px] max-md:px-[16px];
+    @apply pt-[64px] pb-[24px] px-[64px] max-lg:px-[32px] max-md:px-[16px];
   }
 
   .padding-x {
