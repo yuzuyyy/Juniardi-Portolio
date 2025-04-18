@@ -31,16 +31,16 @@
   }
 
   .heading-5 {
-    @apply text-[24px] max-lg:text-[22px] max-md:text-[20px] leading-[1.5em] tracking-[-0.02em] font-semibold;
+    @apply text-[24px] max-lg:text-[22px] max-md:text-[20px] leading-[1em] tracking-[-0.02em] font-semibold;
   }
 
   .heading-6 {
-    @apply text-[20px] max-lg:text-[18px] max-md:text-[16px] leading-[1.5em] tracking-[-0.02em] font-semibold;
+    @apply text-[20px] max-lg:text-[18px] max-md:text-[16px] leading-[1em] tracking-[-0.02em] font-semibold;
   }
 
   /* ======= Body & Text Styles ======= */
   .body-1 {
-    @apply text-[24px] max-lg:text-[20px] max-md:text-[18cpx] leading-[1.5em] tracking-[-0.02em] font-medium;
+    @apply text-[20px] max-lg:text-[18px] max-md:text-[14px] leading-[1em] tracking-[-0.02em] font-medium;
   }
 
   .body-2 {

@@ -7,6 +7,8 @@ import Number from './Number.svelte'
 import ListItem from './ListItem.svelte'
 import Ticker from './Ticker.svelte'
 import MainButton from './MainButton.svelte'
+import ProjectCard from './ProjectCard.svelte'
+import Project from './Project.svelte'
 export {
     Counter,
     Hero,
@@ -16,5 +18,7 @@ export {
     Number,
     ListItem,
     Ticker,
-    MainButton
+    MainButton,
+    ProjectCard,
+    Project
 }

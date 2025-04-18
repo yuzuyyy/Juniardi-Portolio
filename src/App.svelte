@@ -1,5 +1,6 @@
 <script>
-  import { About, Hero , Ticker} from "./lib";
+  import { About, Hero , Ticker, Project} from "./lib";
+
 
 
 
@@ -8,3 +9,4 @@
 <Hero />
 <About />
 <Ticker />
+<Project />
