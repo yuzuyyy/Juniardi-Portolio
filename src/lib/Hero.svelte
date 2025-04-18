@@ -29,7 +29,7 @@
         >
       </div>
 
-      <div class="p-[24px] bg-primary flex rounded-3xl overflow-hidden">
+      <div class="p-[10px] bg-primary flex rounded-3xl overflow-hidden">
         <img
           class="min-h-[440px] max-md:h-[360px] w-[400px] max-md:w-full rounded-3xl"
           src={hero}
