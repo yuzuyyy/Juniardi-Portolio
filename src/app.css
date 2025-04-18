@@ -40,7 +40,7 @@
 
   /* ======= Body & Text Styles ======= */
   .body-1 {
-    @apply text-[32px] max-lg:text-[24px] max-md:text-[20px] leading-[1.5em] tracking-[-0.02em] font-normal;
+    @apply text-[32px] max-lg:text-[24px] max-md:text-[20px] leading-[1.5em] tracking-[-0.02em] font-medium;
   }
 
   .body-2 {
