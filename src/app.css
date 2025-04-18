@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@100..900&family=Darker+Grotesque:wght@300..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,6 +6,10 @@
 
 @layer base {
   body {
+    font-family: 'Darker Grotesque', sans-serif;
+  }
+
+  .font-inter {
     font-family: 'Inter', sans-serif;
   }
 
@@ -63,14 +67,7 @@
     @apply text-[16px] leading-[24px] tracking-[-0.04em] font-semibold;
   }
 
-
-  
-
- 
-
   /* ======= Layout Helpers ======= */
-
-
   .section-padding {
     @apply pt-[64px] pb-[24px] px-[64px] max-lg:px-[32px] max-md:px-[16px];
   }
