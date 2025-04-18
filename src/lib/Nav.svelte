@@ -44,8 +44,8 @@
                 {#each navItems as item}
                     <NavItem {...item} />
                 {/each}
-                <MainButton className="bg-primary font-bold text-black body-1 w-full py-4">
-                    Contact me
+                <MainButton className="bg-primary font-bold  body-1 w-full py-4">
+                    <span class="text-black">Contact me</span>
                 </MainButton>
             </div>
         </div>
