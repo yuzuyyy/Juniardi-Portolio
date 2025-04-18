@@ -11,7 +11,7 @@
 <a
     href={link}
     on:click={closeMenu}
-    class="body-1 capitalize hover:text-white/50 transition-all duration-300"
+    class="body-1 capitalize hover:text-white/50 transition-all duration-300 z-50"
 >
     {text}
 </a>
