@@ -1,14 +1,15 @@
 <script>
   import { project1 } from "../assets";
+  export let image = project1
 </script>
 
 <a href="">
   <div
-    class="relative p-[24px] min-h-[300px] min-w-[280px] max-lg:w-full rounded-[40px] overflow-hidden group flex flex-col justify-between"
+    class="relative p-[24px] min-h-[340px] min-w-[280px] max-lg:w-full rounded-[40px] overflow-hidden group flex flex-col justify-between"
   >
     <img
       class="absolute inset-0 w-full h-full bg-cover group-hover:scale-125 transition-all ease-in-out duration-700"
-      src={project1}
+      src={image}
       alt=""
     />
 

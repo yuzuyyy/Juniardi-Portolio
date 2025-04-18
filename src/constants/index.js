@@ -1,4 +1,4 @@
-import { socmed1, socmed2, socmed3, socmed4, socmed5, tool1, tool2, tool3, tool4 } from "../assets";
+import { project1, project2, project3, socmed1, socmed2, socmed3, socmed4, socmed5, tool1, tool2, tool3, tool4 } from "../assets";
 
 export const socmeds = [
     {
@@ -66,4 +66,16 @@ export const tools = [
         image: tool4,
         text: "Notion" 
      },
+]
+
+export const projects = [
+    {
+        image: project1
+    },
+    {
+        image: project2
+    },
+    {
+        image: project3
+    },
 ]
