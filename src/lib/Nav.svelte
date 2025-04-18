@@ -9,7 +9,7 @@
     $: $isOpen;
 </script>
 
-<nav class="fixed   z-50 bg-primary w-full top-0 padding-x py-[10px]">
+<nav class="fixed z-50 bg-primary w-full top-0 padding-x py-[10px]">
     <div class="relative section-container flex items-center justify-between">
         <div>
             <a href="/" class="font-alfa text-3xl uppercase">hw</a>
@@ -31,23 +31,23 @@
             </MainButton>
             <ToggleMenu />
         </div>
-
-        <!-- Mobile Menu -->
-        
-            {#if $isOpen}
-                <div
-                    in:slide
-                    out:fade
-                    class="absolute rounded-3xl  bg-black text-white top-[60px] left-0 w-full z-50 flex flex-col items-center gap-6 p-6 shadow-md md:hidden"
-                >
-                    {#each navItems as item}
-                        <NavItem {...item} />
-                    {/each}
-                    <MainButton className="bg-primary font-bold text-black body-1 w-full py-4">Contact me</MainButton>
-                </div>
-            {/if}
-        
-
-
     </div>
+
+    <!-- Mobile Menu -->
+    {#if $isOpen}
+        <div class="fixed inset-0 top-[60px] z-40 flex justify-center md:hidden h-fit">
+            <div
+                in:slide
+                out:fade
+                class="rounded-3xl bg-black text-white w-[90%] max-w-[400px] flex flex-col items-center gap-6 p-6 shadow-lg"
+            >
+                {#each navItems as item}
+                    <NavItem {...item} />
+                {/each}
+                <MainButton className="bg-primary font-bold text-black body-1 w-full py-4">
+                    Contact me
+                </MainButton>
+            </div>
+        </div>
+    {/if}
 </nav>
