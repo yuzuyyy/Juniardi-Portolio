@@ -7,7 +7,7 @@ export const socmeds = [
     },
     {
         icon: socmed2,
-        link: "https://twitter.com"
+        link: "https://instagram.com"
     },
     {
         icon: socmed3,
@@ -15,11 +15,11 @@ export const socmeds = [
     },
     {
         icon: socmed4,
-        link: "https://twitter.com"
+        link: "https://behance.net"
     },
     {
         icon: socmed5,
-        link: "https://twitter.com"
+        link: "https://linkedin.com"
     },
 ]
 
