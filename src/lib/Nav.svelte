@@ -16,7 +16,7 @@
         </div>
 
         <!-- Desktop Nav -->
-        <div class="flex items-center gap-[40px] max-md:hidden bg-black py-4 px-8 rounded-full">
+        <div class="flex items-center gap-[40px] text-normal max-md:hidden bg-black py-4 px-8 rounded-full">
             {#each navItems as item}
                 <NavItem {...item} />
             {/each}
