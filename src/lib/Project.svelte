@@ -8,7 +8,8 @@
   <div class="w-full flex flex-col gap-[40px] max-md:gap-[24px] section-container">
 
     <div>
-      <MainButton className="w-fit button-text ">Become a client</MainButton>
+      <!-- <MainButton className="w-fit button-text ">Become a client</MainButton> -->
+      <h1 class="heading-2 ">[Showcase]</h1>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] w-full">
