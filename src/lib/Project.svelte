@@ -1,7 +1,7 @@
 <script>
-  import { MainButton, ProjectCard } from ".";
+  import { MainButton, ProjectCard,FadeIn } from ".";
   import { projects } from "../constants";
-  import FadeIn from "./FadeIn.svelte"; // import FadeIn
+  // import FadeIn
 </script>
 
 <section id="project" class="bg-white/80 w-full section-padding">

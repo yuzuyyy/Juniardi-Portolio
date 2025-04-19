@@ -1,7 +1,8 @@
 <script>
-  import { services, stats, tools } from "../constants";
+  import { services, stats, tools,  } from "../constants";
   import { ListItem, Number } from "./";
-  import FadeIn from "./FadeIn.svelte";
+  import {FadeIn} from './'
+  
 </script>
 
 <section id="about" class="bg-bgDark section-padding">
