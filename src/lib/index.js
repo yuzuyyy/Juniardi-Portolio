@@ -13,6 +13,7 @@ import Nav from './Nav.svelte'
 import NavItem from './NavItem.svelte'
 import ToggleMenu from './ToggleMenu.svelte'
 import Footer from './Footer.svelte'
+import FadeIn from './FadeIn.svelte'
 export {
     Counter,
     Hero,
@@ -28,5 +29,6 @@ export {
     Nav,
     NavItem,
     ToggleMenu,
-    Footer
+    Footer,
+    FadeIn
 }
