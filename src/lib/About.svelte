@@ -5,7 +5,7 @@
   
 </script>
 
-<section id="about" class="bg-bgDark section-padding">
+<section id="about" class="bg-bgDark section-padding max-md:-mt-[40px]">
   <div class="section-container flex flex-col lg:gap-[64px] gap-[24px] w-full">
     
     <div class="flex items-center justify-between w-full">
