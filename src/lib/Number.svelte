@@ -51,7 +51,7 @@
 </script>
 
 <div bind:this={el} class="flex flex-col max-md:items-center w-fit">
-  <p class="text-[120px] max-lg:text-[64px] max-md:text-[40px] text-textMid font-bold  leading-[1em]">
+  <p class="text-[100px] max-lg:text-[64px] max-md:text-[40px] text-textMid font-bold  leading-[1em]">
     {current}<span class="text-primary">{simbol}</span>
   </p>
   <p class="text-textMid body-1 capitalize">{text}</p>

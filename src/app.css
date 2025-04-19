@@ -79,7 +79,11 @@
 
   /* ======= Layout Helpers ======= */
   .section-padding {
-    @apply pt-[64px] pb-[24px] px-[64px] max-lg:px-[32px] max-md:px-[16px];
+    @apply pt-[24px] max-md:pt-[24px] pb-[24px] px-[64px] max-lg:px-[32px] max-md:px-[16px];
+  }
+
+  .hero-section-padding {
+    @apply pt-[130px] max-md:pt-[68px] pb-[24px] px-[64px] max-lg:px-[32px] max-md:px-[16px];
   }
 
   .padding-x {
