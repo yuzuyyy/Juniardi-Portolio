@@ -16,7 +16,7 @@
         </div>
 
         <!-- Desktop Nav -->
-        <div class="flex items-center gap-[24px] max-md:hidden">
+        <div class="flex items-center gap-[40px] max-md:hidden bg-black py-4 px-8 rounded-full">
             {#each navItems as item}
                 <NavItem {...item} />
             {/each}
@@ -35,11 +35,11 @@
 
     <!-- Mobile Menu -->
     {#if $isOpen}
-        <div class="fixed inset-0 top-[60px] z-40 flex justify-center md:hidden h-fit">
+        <div class="fixed inset-0 top-[80px] z-40 flex justify-center md:hidden h-fit">
             <div
                 in:slide
                 out:fade
-                class="rounded-3xl bg-black text-white w-[90%] max-w-[400px] flex flex-col items-center gap-6 p-6 shadow-lg"
+                class="rounded-3xl bg-black text-white w-full max-w-[400px] flex flex-col items-center gap-6 p-6 shadow-lg"
             >
                 {#each navItems as item}
                     <NavItem {...item} />
