@@ -19,5 +19,13 @@
       {/each}
     </div>
 
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] w-full">
+      {#each projects as project, i}
+        <FadeIn delay={i * 150} wait={300}>
+          <ProjectCard {...project} />
+        </FadeIn>
+      {/each}
+    </div>
+
   </div>
 </section>

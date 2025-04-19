@@ -5,7 +5,7 @@
   
 </script>
 
-<section id="about" class="bg-bgDark section-padding max-md:-mt-[40px]">
+<section id="about" class="bg-bgDark section-padding -mt-[40px] max-md:-mt-[60px]">
   <div class="section-container flex flex-col lg:gap-[64px] gap-[24px] w-full">
     
     <div class="flex items-center justify-between w-full">
@@ -55,6 +55,19 @@
               <ListItem {...tool} />
             {/each}
           </div>
+        </div>
+      </FadeIn>
+
+      <FadeIn>
+        <div class="flex flex-col lg:min-h-[280px] h-fit pt-[16px] gap-[10px]">
+          <h2 class="heading-2 text-white">[About me]</h2>
+          <p class="body-1 text-white/80 md:max-lg:max-w-[480px]">
+            Design, for me, goes beyond solving problems. It's about improving
+            user experiences, striking the perfect balance between aesthetics and
+            functionality, and even creating products that form emotional
+            connections with users.
+          </p>
+          <p class="heading-5 text-white">Signature</p>
         </div>
       </FadeIn>
 
